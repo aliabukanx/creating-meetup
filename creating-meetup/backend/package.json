@@ -1,0 +1,29 @@
+{
+    "name": "week-3-models-and-services",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava --verbose --watch",
+        "test-coverage": "nyc ava --verbose "
+    },
+    "author": "ABUKAN",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "chalk": "^2.4.2",
+        "cors": "^2.8.5",
+        "express": "^4.17.2",
+        "flatted": "^2.0.2",
+        "mongoose": "^6.2.1",
+        "mongoose-autopopulate": "^0.16.0",
+        "pug": "^3.0.2",
+        "vue": "^3.2.31"
+    },
+    "devDependencies": {
+        "ava": "^4.0.1",
+        "nodemon": "^2.0.15",
+        "nyc": "^15.1.0",
+        "supertest": "^6.2.2"
+    }
+}
